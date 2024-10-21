@@ -1,10 +1,8 @@
 {
     "entities": [
-        "minecraft:player",
-        "minecraft:armor_stand"
+        "minecraft:player"
     ],
     "slots": [
-        "body",
-        "necklace"
+        "eoa_slot_necklace"
     ]
 }
