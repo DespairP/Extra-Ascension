@@ -12,7 +12,7 @@ public class EOAExItemLoader {
 
     public static final Supplier<Item> ANCIENT_STAVE = ITEMS.register("ancient_stave",  () -> new Item(new Item.Properties()));
     public static final Supplier<Item> BAM_HORN = ITEMS.register("bam_horn",  () -> new BamHorn(new Item.Properties().stacksTo(1)));
-    public static final Supplier<Item> CHARGER_BOXING_GLOVE = ITEMS.register("charger_boxing_glove",  () -> new Item(new Item.Properties()));
+    public static final Supplier<Item> CHARGER_BOXING_GLOVE = ITEMS.register("charger_boxing_glove",  () -> new ChargerBoxingGlove(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> NECKLACE_OF_SWAMP = ITEMS.register("necklace_of_swamp",  () -> new NecklaceSwamp(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> NETHENGEIC_CORE = ITEMS.register("nethengeic_core",  () -> new Item(new Item.Properties()));
     public static final Supplier<Item> STEEL_HAMMER = ITEMS.register("steel_hammer",  () -> new Item(new Item.Properties()));
