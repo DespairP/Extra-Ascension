@@ -13,7 +13,7 @@ import org.teamHTBP.extraascension.common.items.EOAExItemLoader;
 
 @EventBusSubscriber()
 public class ChargerBoxingGloveSoundHandler {
-
+    /**播放袭击者声音*/
     @SubscribeEvent
     public static void onAttack(AttackEntityEvent event) {
         Player player = event.getEntity();

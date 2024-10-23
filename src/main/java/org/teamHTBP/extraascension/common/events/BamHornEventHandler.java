@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @EventBusSubscriber()
 public class BamHornEventHandler {
-
+    /**清除Piglin仇恨*/
     @SubscribeEvent
     public static void hurtEntityEvent(LivingChangeTargetEvent event){
         if(event.getEntity() instanceof Piglin piglin

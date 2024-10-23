@@ -14,6 +14,7 @@ import java.util.function.Supplier;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class CuriosHandler {
+    /**注册物品*/
     @SubscribeEvent
     public static void registerCurios(final FMLCommonSetupEvent event){
         CuriosApi.registerCurioPredicate(ResourceLocation.fromNamespaceAndPath(EasyOfAscensionExtra.MOD_ID, "eoa"), (slotResult) -> {
