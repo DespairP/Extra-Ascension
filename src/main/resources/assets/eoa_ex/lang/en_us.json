@@ -1,4 +1,7 @@
 {
   "itemGroup.eoa_ex": "Easy Of Ascension Extra",
-  "curios.eoa_ex:eoa_slot_necklace": "Extra Necklace"
+  "curios.eoa_ex:eoa_slot_necklace": "Extra Necklace",
+  "item.eoa_ex.charger_boxing_glove": "Charger boxing glove",
+  "item.eoa_ex.necklace_of_swamp": "Necklace of Swamp",
+  "item.eoa_ex.bam_horn": "Bam Horn"
 }
