@@ -43,6 +43,7 @@ public class EOAExItemGroup {
         event.accept(EOAExItemLoader.NETHENGEIC_CORE.get());
         event.accept(EOAExItemLoader.NECKLACE_OF_SWAMP.get());
         event.accept(EOAExItemLoader.STICKY_SAND_BALL.get());
+        event.accept(EOAExItemLoader.THERMALLY_INSULATED_SCALE.get());
         event.accept(EOAExItemLoader.VOID_AMETHYST.get());
     }
 }

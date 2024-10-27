@@ -33,7 +33,6 @@ public class NecklaceSwampEventHandler {
             // 当玩家穿戴沼泽项链时，中毒效果不生效
             if(event.getEntity() instanceof Player player
                     && source.is(Tags.DamageTypes.IS_POISON)
-                    && CuriosApi.getCuriosInventory(player).isPresent()
                     && EOACuriosHelper.isPlayerEquipped(player, EOAExItemLoader.NECKLACE_OF_SWAMP.get())
             ){
                     event.setAmount(0);
@@ -52,7 +51,7 @@ public class NecklaceSwampEventHandler {
                 && source.getEntity() instanceof Player attackPlayer
                 && EOACuriosHelper.isPlayerEquipped(attackPlayer, EOAExItemLoader.NECKLACE_OF_SWAMP.get())
                 && attackPlayer.hasEffect(MobEffects.POISON)
-                && (source.is(AoATags.DamageTypes.GUN) || source.is(AoADamageTypes.RANGED_ATTACK))
+                && (source.is(AoATags.DamageTypes.GUN) || source.is(DamageTypes.ARROW) || source.is(AoADamageTypes.RANGED_ATTACK))
         ){
             int level = Objects.requireNonNull(attackPlayer.getEffect(MobEffects.POISON)).getAmplifier();
             float damage = event.getOriginalDamage();

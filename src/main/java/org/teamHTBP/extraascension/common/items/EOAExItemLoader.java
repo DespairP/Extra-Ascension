@@ -14,11 +14,11 @@ public class EOAExItemLoader {
     public static final Supplier<Item> BAM_HORN = ITEMS.register("bam_horn",  () -> new BamHorn(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> CHARGER_BOXING_GLOVE = ITEMS.register("charger_boxing_glove",  () -> new ChargerBoxingGlove(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> NECKLACE_OF_SWAMP = ITEMS.register("necklace_of_swamp",  () -> new NecklaceSwamp(new Item.Properties().stacksTo(1)));
-    public static final Supplier<Item> NETHENGEIC_CORE = ITEMS.register("nethengeic_core",  () -> new Item(new Item.Properties()));
+    public static final Supplier<Item> NETHENGEIC_CORE = ITEMS.register("nethengeic_core",  () -> new NethengeicCore(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> STEEL_HAMMER = ITEMS.register("steel_hammer",  () -> new Item(new Item.Properties()));
     public static final Supplier<Item> STICKY_SAND_BALL = ITEMS.register("sticky_sand_ball",  () -> new Item(new Item.Properties()));
-    public static final Supplier<Item> THERMALLY_INSULATED_SCALE = ITEMS.register("thermally_insulated_scale",  () -> new Item(new Item.Properties()));
-    public static final Supplier<Item> VOID_AMETHYST = ITEMS.register("void_amethyst",  () -> new Item(new Item.Properties()));
+    public static final Supplier<Item> THERMALLY_INSULATED_SCALE = ITEMS.register("thermally_insulated_scale",  () -> new ThermallyInsulatedScale(new Item.Properties().stacksTo(1)));
+    public static final Supplier<Item> VOID_AMETHYST = ITEMS.register("void_amethyst",  () -> new VoidAmethyst(new Item.Properties().stacksTo(1)));
 
 
 
